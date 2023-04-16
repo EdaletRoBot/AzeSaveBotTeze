@@ -13,8 +13,8 @@ class RoftConfiguration:
 
     __roft_version__ = '1.5.8'
 
-    ApiID = os.environ.get('API_ID', 123456)
-    ApiHASH = os.environ.get('API_HASH', "123567") 
+    ApiID = os.environ.get('API_ID', 28054551)
+    ApiHASH = os.environ.get('API_HASH', "64a0620c2644ceff0c1058a4ffc861ad") 
 
     TelegramBot = os.environ.get('TELEGRAM', "5426644613:AAG_BoErvt2wVV73lYjVkEllfREOAdA0EJk")
     SpecialUsers = int(os.environ.get('CREATOR_ID', "5540993505"))
