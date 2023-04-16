@@ -1,7 +1,7 @@
 message_1 = (
     "👋🏻 Salam, {m}  <b>Xoş gəlmisiz.</b>\n\n"
-    "💭 @{bn} sizə endirməyə imkan verir"
-    "  TikTok, YouTube, Pinterest, Spotify dən media. "
+    "💭 @{bn} sizə TikTok, YouTube, Pinterest, Spotify dən"
+    "media endirməyə imkan verir"
     "Məni necə istdifadə etməyi bilmirsiz '📮 <b>Help</b>' buttona toxunun."
 )
 message_2 = "💭 Salam {}!"
@@ -28,7 +28,7 @@ message_4 = (
     "ℹ️ <b>Info</b>\n\n"
     "<b>Python3</b> ilə hazırlanmıs botam"
     " and uses <a href='https://github.com/pyrogram/pyrogram'>Pyrogram</a> as a framework with MongoDB as database.\n\n"
-    "🆚 Version<b>:</b> {} | 📣 Channel<b>:</b> @Teamabasofcom"
+    "🆚 Version<b>:</b> {} | 📣 Channel<b>:</b> @edaletproject"
 )
 # download module 
 message_5 = "🔍 <b>Yükləni...</b>"
@@ -59,12 +59,12 @@ message_23 = "Pinterest media endirmək üçün /pints [Pinterest media url]"
 message_24 = "⌛ <b>Göndərirəm...</b>"
 message_25 = (
    "<b>Pinterest Yükləmə</b>\n"
-   "<a href='https://t.me/Teamabasofcom'>Channel</a> | <a href='https://t.me/teamabasov'>Sahib</a>"
+   "<a href='https://t.me/edaletproject'>Kanal</a> | <a href='https://t.me/edalet_22'>Sahib</a>"
 )
 message_26 = "🔍 <b>Nəticə tapılmadı yenidən yoxlayın.</b>"
 # TikTok Module
 message_27 = "Tiktok videosu yükləmək üçün /tiktok [TikTok URL]"
-message_28 = "• Yüklədi @OldSaveAllBot.\nDigər bot @OldMultiBot"
+message_28 = "• Yüklədi @AzeSaveBot \nDigər bot @edaletproject"
 message_29 = "🔍 <b>Nəticə tapılmadı yenidən yoxlayın.</b>"
 message_30 = "Bağışlayin bu fayil haqqında məlumat ala bilmədim.\nYenidən yoxlayin və ya başqa kecid linki istdifadə edin."
 
@@ -139,7 +139,7 @@ def keyboard_down(id, duration, user_id):
         types.InlineKeyboardMarkup(
             [
                 [
-                    types.InlineKeyboardButton(text="📽️ Download Video", callback_data=f'video_ {id}|{duration}|{user_id}')
+                    types.InlineKeyboardButton(text="📽️ Videonu yüklə", callback_data=f'video_ {id}|{duration}|{user_id}')
                 ]
             ]
         )
@@ -152,7 +152,7 @@ keyboard = (
         [
             [
                 types.InlineKeyboardButton(text='📮 Help', callback_data='self_help'),
-                types.InlineKeyboardButton(text='📣 Channel', url='https://t.me/TeamabasofCom')
+                types.InlineKeyboardButton(text='📣 Kanal', url='https://t.me/edaletproject')
             ]
         ]
     )
